@@ -5,8 +5,12 @@ public class MyClass {
  * My class main
  */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("LOLO");
+		double x, y, answer;
+		int z = 4;
+		x = 40.5;
+		y = 30;
+		answer = x / (y % z);
+		System.out.println(answer);
 	}
 
 }
